@@ -54,3 +54,7 @@ Public repositories use synthetic or generalized examples only. I do not publish
 - Clinical-facing summaries that show uncertainty instead of hiding it.
 - AI workflows that keep final responsibility with a human reviewer.
 - Lightweight prototypes that prove an idea before a team overbuilds it.
+
+## Current Build Roadmap
+
+See `docs/current-build-roadmap.md` for the next set of public upgrades I am actively building across the portfolio.
