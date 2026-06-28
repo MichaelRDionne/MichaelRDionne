@@ -6,6 +6,13 @@ I build practical AI-assisted tools for clinical and operational workflows: inta
 
 My work sits at the intersection of psychiatric practice, product thinking, and hands-on automation. The common thread is simple: AI systems should reduce cognitive load, preserve human judgment, and make the next safe action easier to see.
 
+## Quick Signal
+
+- Licensed psychiatric clinician building hands-on AI workflow prototypes.
+- Comfortable translating messy operational work into structured queues, checks, and review loops.
+- Focused on synthetic demos, PHI safety, and responsible human-in-the-loop design.
+- Currently building toward medical AI consulting, clinical operations automation, and practical evaluation of AI tools in healthcare environments.
+
 ## Current Focus
 
 - Clinical workflow automation with synthetic data and human review gates.
@@ -29,6 +36,13 @@ My work sits at the intersection of psychiatric practice, product thinking, and 
 
 - [bootcamp-learning-archive](https://github.com/MichaelRDionne/bootcamp-learning-archive)  
   Organized index of older FinTech, ML, cybersecurity, and blockchain coursework retained as learning history.
+
+## Interview Talking Points
+
+- I know the clinical workflow from the inside, which helps me spot where AI should support judgment rather than replace it.
+- I build small proof-of-concept tools first, then evaluate whether they reduce ambiguity, save time, or create new risk.
+- I treat synthetic data, auditability, and escalation rules as product requirements, not afterthoughts.
+- I am especially interested in AI systems for healthcare operations, clinician productivity, and candidate/workflow evaluation.
 
 ## Safety Boundary
 
