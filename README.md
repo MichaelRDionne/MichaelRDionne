@@ -13,6 +13,15 @@ My work sits at the intersection of psychiatric practice, product thinking, and 
 - Focused on synthetic demos, PHI safety, and responsible human-in-the-loop design.
 - Currently building toward medical AI consulting, clinical operations automation, and practical evaluation of AI tools in healthcare environments.
 
+## Builder Proof
+
+[![Clinical workflow tests](https://github.com/MichaelRDionne/clinical-ai-workflow-sandbox/actions/workflows/tests.yml/badge.svg)](https://github.com/MichaelRDionne/clinical-ai-workflow-sandbox/actions/workflows/tests.yml)
+[![Care coordination tests](https://github.com/MichaelRDionne/whatsapp-care-coordination-sandbox/actions/workflows/tests.yml/badge.svg)](https://github.com/MichaelRDionne/whatsapp-care-coordination-sandbox/actions/workflows/tests.yml)
+
+- Runnable Python demos with public unit tests and GitHub Actions checks.
+- Synthetic workflow visuals for clinical AI, care coordination, site builds, and consulting review.
+- Public safety boundary: synthetic data only, no PHI, no production clinical exports.
+
 ## Current Focus
 
 - Clinical workflow automation with synthetic data and human review gates.
