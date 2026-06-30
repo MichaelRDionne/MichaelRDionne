@@ -6,7 +6,7 @@ This file is refreshed by the weekly portfolio maintenance workflow. It summariz
 
 | Repo | Role | Last Push | Open Issues | Latest Workflow | License | Homepage |
 | --- | --- | --- | ---: | --- | --- | --- |
-| [clinical-ai-workflow-sandbox](https://github.com/MichaelRDionne/clinical-ai-workflow-sandbox) | Clinical AI workflow demo | 2026-06-30 | 2 | completed/success | MIT | - |
+| [clinical-ai-workflow-sandbox](https://github.com/MichaelRDionne/clinical-ai-workflow-sandbox) | Clinical AI workflow demo | 2026-06-30 | 1 | completed/success | MIT | - |
 | [whatsapp-care-coordination-sandbox](https://github.com/MichaelRDionne/whatsapp-care-coordination-sandbox) | Healthcare operations routing demo | 2026-06-30 | 2 | completed/success | MIT | - |
 | [ai-site-build-showcase](https://github.com/MichaelRDionne/ai-site-build-showcase) | Live AI-assisted site gallery | 2026-06-30 | 1 | completed/success | MIT | [live](https://michaelrdionne.github.io/ai-site-build-showcase/) |
 | [medical-ai-consulting-playbook](https://github.com/MichaelRDionne/medical-ai-consulting-playbook) | Consulting guardrails and review templates | 2026-06-30 | 1 | no workflow | MIT | - |
