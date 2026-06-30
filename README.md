@@ -21,6 +21,14 @@ My work sits at the intersection of psychiatric practice, product thinking, and 
   <img height="170" src="https://streak-stats.demolab.com?user=MichaelRDionne&hide_border=true&ring=B45309&fire=B45309&currStreakLabel=0F766E&sideLabels=475569&dates=64748B&currStreakNum=1E293B&sideNums=1E293B&background=FFFFFF00" alt="Michael Dionne GitHub streak" />
 </a>
 
+## Contribution Trail
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MichaelRDionne/MichaelRDionne/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MichaelRDionne/MichaelRDionne/output/github-contribution-grid-snake.svg">
+  <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/MichaelRDionne/MichaelRDionne/output/github-contribution-grid-snake.svg">
+</picture>
+
 ## Quick Signal
 
 - Licensed psychiatric clinician building hands-on AI workflow prototypes.
@@ -109,7 +117,3 @@ Public repositories use synthetic or generalized examples only. I do not publish
 ## Current Build Roadmap
 
 See `docs/current-build-roadmap.md` for the next set of public upgrades I am actively building across the portfolio.
-
-## Contribution Trail
-
-![GitHub contribution snake](https://raw.githubusercontent.com/MichaelRDionne/MichaelRDionne/output/github-contribution-grid-snake.svg)
