@@ -48,6 +48,7 @@ My work sits at the intersection of psychiatric practice, product thinking, and 
 - Runnable Python demos with public unit tests and GitHub Actions checks.
 - Synthetic workflow visuals for clinical AI, care coordination, site builds, and consulting review.
 - Public safety boundary: synthetic data only, no PHI, no production clinical exports.
+- Fast review path: [`docs/portfolio-walkthrough.md`](docs/portfolio-walkthrough.md)
 
 ## Visual Showcase
 
