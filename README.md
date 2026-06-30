@@ -49,6 +49,8 @@ My work sits at the intersection of psychiatric practice, product thinking, and 
 - Synthetic workflow visuals for clinical AI, care coordination, site builds, and consulting review.
 - Public safety boundary: synthetic data only, no PHI, no production clinical exports.
 - Fast review path: [`docs/portfolio-walkthrough.md`](docs/portfolio-walkthrough.md)
+- Weekly status: [`docs/portfolio-status.md`](docs/portfolio-status.md)
+- Learning shortlist: [`docs/repo-learning-shortlist.md`](docs/repo-learning-shortlist.md)
 
 ## Visual Showcase
 
@@ -118,3 +120,5 @@ Public repositories use synthetic or generalized examples only. I do not publish
 ## Current Build Roadmap
 
 See `docs/current-build-roadmap.md` for the next set of public upgrades I am actively building across the portfolio.
+
+See `docs/weekly-portfolio-maintenance.md` for the automated weekly maintenance rules.
