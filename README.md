@@ -12,23 +12,6 @@ I build practical AI-assisted tools for clinical and operational workflows: inta
 
 My work sits at the intersection of psychiatric practice, product thinking, and hands-on automation. The common thread is simple: AI systems should reduce cognitive load, preserve human judgment, and make the next safe action easier to see.
 
-## Snapshot
-
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=MichaelRDionne&show_icons=true&hide_border=true&rank_icon=github&title_color=0F766E&icon_color=B45309&text_color=334155&bg_color=00000000" alt="Michael Dionne GitHub stats" />
-</a>
-<a href="https://github.com/DenverCoder1/github-readme-streak-stats">
-  <img height="170" src="https://streak-stats.demolab.com?user=MichaelRDionne&hide_border=true&ring=B45309&fire=B45309&currStreakLabel=0F766E&sideLabels=475569&dates=64748B&currStreakNum=1E293B&sideNums=1E293B&background=FFFFFF00" alt="Michael Dionne GitHub streak" />
-</a>
-
-## Contribution Trail
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MichaelRDionne/MichaelRDionne/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MichaelRDionne/MichaelRDionne/output/github-contribution-grid-snake.svg">
-  <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/MichaelRDionne/MichaelRDionne/output/github-contribution-grid-snake.svg">
-</picture>
-
 ## Quick Signal
 
 - Licensed psychiatric clinician building hands-on AI workflow prototypes.
@@ -123,10 +106,6 @@ Public repositories use synthetic or generalized examples only. I do not publish
 - AI workflows that keep final responsibility with a human reviewer.
 - Lightweight prototypes that prove an idea before a team overbuilds it.
 
-## Trophy Shelf
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=MichaelRDionne&theme=flat&no-frame=true&margin-w=12&row=1&column=6)](https://github.com/ryo-ma/github-profile-trophy)
-
 ## Current Build Roadmap
 
 See `docs/current-build-roadmap.md` for the next set of public upgrades I am actively building across the portfolio.
@@ -142,16 +121,4 @@ See `docs/weekly-portfolio-maintenance.md` for the automated weekly maintenance 
 These show the engineering: safety gates for PHI/encrypted volumes, human review at every irreversible step, v2 structured charts as source of truth, and UI affordances that make daily work faster while keeping the clinician in control.
 
 All examples use synthetic or generalized data. Full internal versions stay private.
-
-## One Clinician-Builder Confession
-
-I used to think "if the model is good enough, the workflow will just work." 
-
-Then I watched a perfectly generated summary get ignored because the clinician couldn't find the safety flag in 8 seconds flat.
-
-So now I build the boring parts: the queue that won't let you forget the AIMS, the paste handler that knows when a schedule is too long to inline, the checklist that forces you to look at the actual drive mount before you touch PHI.
-
-It's not sexy. It ships.
-
-(And yes, the snake graph is my favorite part of this whole README. Fight me.)
 
