@@ -25,11 +25,12 @@ My work sits at the intersection of psychiatric practice, product thinking, and 
 
 ## Builder Proof
 
-[![Clinical workflow tests](https://github.com/MichaelRDionne/clinical-ai-workflow-sandbox/actions/workflows/tests.yml/badge.svg)](https://github.com/MichaelRDionne/clinical-ai-workflow-sandbox/actions/workflows/tests.yml)
-[![Care coordination tests](https://github.com/MichaelRDionne/whatsapp-care-coordination-sandbox/actions/workflows/tests.yml/badge.svg)](https://github.com/MichaelRDionne/whatsapp-care-coordination-sandbox/actions/workflows/tests.yml)
+[![prompt-eval-harness tests](https://github.com/MichaelRDionne/prompt-eval-harness/actions/workflows/tests.yml/badge.svg)](https://github.com/MichaelRDionne/prompt-eval-harness/actions/workflows/tests.yml)
+[![caption-canary tests](https://github.com/MichaelRDionne/caption-canary/actions/workflows/tests.yml/badge.svg)](https://github.com/MichaelRDionne/caption-canary/actions/workflows/tests.yml)
+[![tremor-ruler tests](https://github.com/MichaelRDionne/tremor-ruler/actions/workflows/tests.yml/badge.svg)](https://github.com/MichaelRDionne/tremor-ruler/actions/workflows/tests.yml)
 
 - Runnable Python demos with public unit tests and GitHub Actions checks.
-- Synthetic workflow visuals for clinical AI, care coordination, site builds, and consulting review.
+- Live demo, weekly automated eval, static-site build, and consulting-review visuals.
 - Public safety boundary: synthetic data only, no PHI, no production clinical exports.
 - Fast review path: [`docs/portfolio-walkthrough.md`](docs/portfolio-walkthrough.md)
 - Weekly status: [`docs/portfolio-status.md`](docs/portfolio-status.md)
@@ -37,11 +38,11 @@ My work sits at the intersection of psychiatric practice, product thinking, and 
 
 ## Visual Showcase
 
-<a href="https://github.com/MichaelRDionne/clinical-ai-workflow-sandbox">
-  <img width="31%" src="https://raw.githubusercontent.com/MichaelRDionne/clinical-ai-workflow-sandbox/main/assets/clinical-workflow-demo.svg" alt="Clinical workflow sandbox visual" />
+<a href="https://github.com/MichaelRDionne/prompt-eval-harness">
+  <img width="31%" src="https://raw.githubusercontent.com/MichaelRDionne/prompt-eval-harness/HEAD/assets/demo.gif" alt="Prompt eval harness demo" />
 </a>
-<a href="https://github.com/MichaelRDionne/whatsapp-care-coordination-sandbox">
-  <img width="31%" src="https://raw.githubusercontent.com/MichaelRDionne/whatsapp-care-coordination-sandbox/main/assets/message-triage-board.svg" alt="Care coordination sandbox visual" />
+<a href="https://github.com/MichaelRDionne/ai-site-build-showcase">
+  <img width="31%" src="https://raw.githubusercontent.com/MichaelRDionne/ai-site-build-showcase/HEAD/assets/site-build-dashboard-preview.svg" alt="Static-site build dashboard preview" />
 </a>
 <a href="https://github.com/MichaelRDionne/medical-ai-consulting-playbook">
   <img width="31%" src="https://raw.githubusercontent.com/MichaelRDionne/medical-ai-consulting-playbook/main/assets/consulting-review-matrix.svg" alt="Medical AI consulting playbook visual" />
