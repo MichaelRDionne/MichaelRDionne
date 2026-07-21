@@ -56,7 +56,7 @@ My work sits at the intersection of psychiatric practice, product thinking, and 
 
 ## Now Building
 
-- [tremor-ruler](https://github.com/MichaelRDionne/tremor-ruler): video-based tremor measurement with a coin as the physical scale reference — next up is the MediaPipe extraction layer validation and an AIMS-adjacent movement screen.
+- [tremor-ruler](https://github.com/MichaelRDionne/tremor-ruler): video-based tremor measurement with a coin as the physical scale reference — the MediaPipe landmark-extraction layer is now validated end-to-end on video; next up is an AIMS-adjacent movement screen.
 - Synthetic clinical workflow tools with clearer review gates and better demo polish.
 - Care coordination routing patterns that separate operations from clinician review.
 - Medical AI consulting artifacts that show decision quality, safety boundaries, and workflow judgment.
