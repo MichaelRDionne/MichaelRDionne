@@ -74,20 +74,11 @@ My work sits at the intersection of psychiatric practice, product thinking, and 
 - [caption-canary](https://github.com/MichaelRDionne/caption-canary)  
   Detects machine transcripts that failed silently — fluent output with the domain vocabulary quietly replaced by phonetic soundalikes ("close a pin" for clozapine). Scores transcripts against the vocabulary their topic predicts; stdlib only.
 
-- [clinical-ai-workflow-sandbox](https://github.com/MichaelRDionne/clinical-ai-workflow-sandbox)  
-  Synthetic clinical workflow demo for intake summaries, longitudinal snapshots, follow-up queues, and safety checks.
-
-- [whatsapp-care-coordination-sandbox](https://github.com/MichaelRDionne/whatsapp-care-coordination-sandbox)  
-  Synthetic care-team messaging demo for routing operational messages into human-reviewed action queues.
-
 - [ai-site-build-showcase](https://github.com/MichaelRDionne/ai-site-build-showcase)  
   Case-study gallery of AI-assisted website and app builds, focused on fast iteration and usable interfaces.
 
 - [medical-ai-consulting-playbook](https://github.com/MichaelRDionne/medical-ai-consulting-playbook)  
   Practical checklists for AI workflow risk review, PHI safety, human-in-the-loop design, and model evaluation.
-
-- [bootcamp-learning-archive](https://github.com/MichaelRDionne/bootcamp-learning-archive)  
-  Organized index of older FinTech, ML, cybersecurity, and blockchain coursework retained as learning history.
 
 ## Interview Talking Points
 
