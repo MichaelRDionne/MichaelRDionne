@@ -30,7 +30,7 @@ My work sits at the intersection of psychiatric practice, product thinking, and 
 [![tremor-ruler tests](https://github.com/MichaelRDionne/tremor-ruler/actions/workflows/tests.yml/badge.svg)](https://github.com/MichaelRDionne/tremor-ruler/actions/workflows/tests.yml)
 
 - Runnable Python demos with public unit tests and GitHub Actions checks.
-- Live demo, weekly automated eval, static-site build, and consulting-review visuals.
+- Live demo, [weekly automated eval with a public results dashboard](https://michaelrdionne.github.io/prompt-eval-harness/), static-site build, and consulting-review visuals.
 - Public safety boundary: synthetic data only, no PHI, no production clinical exports.
 - Fast review path: [`docs/portfolio-walkthrough.md`](docs/portfolio-walkthrough.md)
 - Weekly status: [`docs/portfolio-status.md`](docs/portfolio-status.md)
@@ -69,7 +69,7 @@ My work sits at the intersection of psychiatric practice, product thinking, and 
   Coin-calibrated hand-tremor quantification from smartphone video. MediaPipe landmark trajectories → band-pass → Welch PSD for tremor frequency (the measurement-grade output); a US quarter in frame supplies the pixel-to-mm scale for a screening-grade amplitude. QC gates refuse with a named reason — short clip, tracking dropout, sub-Nyquist frame rate, non-rhythmic movement — instead of emitting a number the footage can't support. Unit-tested against synthetic ground truth, including a 1/f drift-rejection case that caught a real detector bug.
 
 - [prompt-eval-harness](https://github.com/MichaelRDionne/prompt-eval-harness)  
-  Evaluation-first prompt development: weighted deterministic rubrics (JSONL cases, pure-function checks, CI gate) that regression-test prompt edits like code edits. The demo is the test suite — a mock output that reads *better* than the faithful one scores 9% because it dropped an allergy, swapped a med, and laundered an alcohol history into vagueness.
+  Evaluation-first prompt development: weighted deterministic rubrics (JSONL cases, pure-function checks, CI gate) that regression-test prompt edits like code edits. The demo is the test suite — a mock output that reads *better* than the faithful one scores 9% because it dropped an allergy, swapped a med, and laundered an alcohol history into vagueness. A weekly CI job scores the live model and publishes the results, untouched, to a [live dashboard](https://michaelrdionne.github.io/prompt-eval-harness/).
 
 - [caption-canary](https://github.com/MichaelRDionne/caption-canary)  
   Detects machine transcripts that failed silently — fluent output with the domain vocabulary quietly replaced by phonetic soundalikes ("close a pin" for clozapine). Scores transcripts against the vocabulary their topic predicts; stdlib only.
