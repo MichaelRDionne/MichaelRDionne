@@ -33,7 +33,7 @@ My work sits at the intersection of psychiatric practice, product thinking, and 
 - Live demo, [weekly automated eval with a public results dashboard](https://michaelrdionne.github.io/prompt-eval-harness/), static-site build, and consulting-review visuals.
 - Public safety boundary: synthetic data only, no PHI, no production clinical exports.
 - Fast review path: [`docs/portfolio-walkthrough.md`](docs/portfolio-walkthrough.md)
-- Weekly status: [`docs/portfolio-status.md`](docs/portfolio-status.md)
+- Status: [`docs/portfolio-status.md`](docs/portfolio-status.md)
 - Learning shortlist: [`docs/repo-learning-shortlist.md`](docs/repo-learning-shortlist.md)
 
 ## Visual Showcase
