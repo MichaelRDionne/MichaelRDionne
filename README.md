@@ -65,6 +65,9 @@ My work sits at the intersection of psychiatric practice, product thinking, and 
 
 ## Featured Work
 
+- [clinical-agent-skills](https://github.com/MichaelRDionne/clinical-agent-skills)  
+  Battle-tested Claude Code skills and slash commands from my real clinical-automation practice, pseudonymized for public reuse. Gate-with-incident change control (every hard rule paired with the failure that created it), GREEN/YELLOW/RED multi-agent autonomy with a no-daemon fence, payload-reality checks ("mechanics-green ≠ content-correct"), and the pre-publish portfolio safety audit this repo itself passed before going live. MIT — fork and adapt.
+
 - [tremor-ruler](https://github.com/MichaelRDionne/tremor-ruler)  
   Coin-calibrated hand-tremor quantification from smartphone video. MediaPipe landmark trajectories → band-pass → Welch PSD for tremor frequency (the measurement-grade output); a US quarter in frame supplies the pixel-to-mm scale for a screening-grade amplitude. QC gates refuse with a named reason — short clip, tracking dropout, sub-Nyquist frame rate, non-rhythmic movement — instead of emitting a number the footage can't support. Unit-tested against synthetic ground truth, including a 1/f drift-rejection case that caught a real detector bug.
 
