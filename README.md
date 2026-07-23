@@ -1,8 +1,8 @@
 # Michael R Dionne
 
-**PMHNP | Clinical AI workflow automation | Healthcare ops tooling | Human-in-the-loop AI systems**
+**Board-Certified Psychiatric Nurse Practitioner | Clinical AI workflow automation | Healthcare ops tooling | Human-in-the-loop AI systems**
 
-![PMHNP](https://img.shields.io/badge/PMHNP-0F766E?style=for-the-badge&labelColor=134E4A)
+![Board-Certified Psychiatric NP](https://img.shields.io/badge/BOARD--CERTIFIED_PSYCHIATRIC_NP-0F766E?style=for-the-badge&labelColor=134E4A)
 ![Clinical AI](https://img.shields.io/badge/Clinical_AI-1D4ED8?style=for-the-badge&labelColor=1E3A8A)
 ![Healthcare Ops](https://img.shields.io/badge/Healthcare_Ops-9A3412?style=for-the-badge&labelColor=7C2D12)
 ![Synthetic Data Only](https://img.shields.io/badge/Synthetic_Data_Only-15803D?style=for-the-badge&labelColor=166534)
