@@ -12,6 +12,10 @@ I build practical AI-assisted tools for clinical and operational workflows: inta
 
 My work sits at the intersection of psychiatric practice, product thinking, and hands-on automation. The common thread is simple: AI systems should reduce cognitive load, preserve human judgment, and make the next safe action easier to see.
 
+## Selected Writing
+
+**[When Not to Use a Model](when-not-to-use-a-model.md)** — Most writing about AI in healthcare argues over which model to reach for. The judgment that has paid off most for me is knowing when to take the model out of a step entirely. Three cases from my own workflow where I replaced an LLM with a deterministic local script — records intake, batch registration, and the silent-transcript problem behind [caption-canary](https://github.com/MichaelRDionne/caption-canary) — with an honest account of what that cost, where it was the wrong call, and where the model stayed. The decision rule: prompts express intent, scripts express contracts.
+
 ## Quick Signal
 
 - Licensed psychiatric clinician building hands-on AI workflow prototypes.
