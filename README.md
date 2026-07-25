@@ -14,7 +14,7 @@ My work sits at the intersection of psychiatric practice, product thinking, and 
 
 ## Selected Writing
 
-**[When Not to Use a Model](when-not-to-use-a-model.md)** — Most writing about AI in healthcare argues over which model to reach for. The judgment that has paid off most for me is knowing when to take the model out of a step entirely. Three cases from my own workflow where I replaced an LLM with a deterministic local script — records intake, batch registration, and the silent-transcript problem behind [caption-canary](https://github.com/MichaelRDionne/caption-canary) — with an honest account of what that cost, where it was the wrong call, and where the model stayed. The decision rule: prompts express intent, scripts express contracts.
+**[When Not to Use a Model](when-not-to-use-a-model.md)** — Most writing about AI in healthcare argues over which model to reach for. The judgment that has paid off most for me is knowing when to take the model out of a step entirely. Three cases from my own workflow where I replaced an LLM with a deterministic local script — [records intake](https://github.com/MichaelRDionne/intake-manifest), batch registration, and the silent-transcript problem behind [caption-canary](https://github.com/MichaelRDionne/caption-canary) — with an honest account of what that cost, where it was the wrong call, and where the model stayed. The decision rule: prompts express intent, scripts express contracts.
 
 ## Quick Signal
 
@@ -83,6 +83,9 @@ My work sits at the intersection of psychiatric practice, product thinking, and 
 
 - [caption-canary](https://github.com/MichaelRDionne/caption-canary)  
   Detects machine transcripts that failed silently — fluent output with the domain vocabulary quietly replaced by phonetic soundalikes ("close a pin" for clozapine). Scores transcripts against the vocabulary their topic predicts; stdlib only.
+
+- [intake-manifest](https://github.com/MichaelRDionne/intake-manifest)  
+  Prove every file in an archive was accounted for, or fail loudly. Enumerates every entry in a document bundle and emits a manifest carrying one explicit status per file — processed, flagged, or failed; an internal tripwire refuses any manifest whose record count doesn't equal the bundle's file count, and `--strict` turns an unprocessed file into a non-zero exit instead of a silent gap. Stdlib only, unit-tested on the guarantee itself. The deterministic-intake case from the *When Not to Use a Model* essay.
 
 - [ai-site-build-showcase](https://github.com/MichaelRDionne/ai-site-build-showcase)  
   Case-study gallery of AI-assisted website and app builds, focused on fast iteration and usable interfaces.
