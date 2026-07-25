@@ -1,6 +1,6 @@
 # When Not to Use a Model
 
-Most writing about AI in clinical work argues over which model to reach for. I spend more of my time on the opposite question. I'm a psychiatric nurse practitioner who builds the automation that runs my own practice, and the judgment that has paid off most is knowing when to take the model out of a step entirely. Three times in the past year I ripped an LLM out of a workflow and put a deterministic local script in its place. Each time the trigger was the same: the requirement had quietly stopped being a judgment call and become a guarantee. Here is what that cost, what it bought, and where I left the model exactly where it was.
+Most writing about AI in clinical work argues over which model to reach for. I spend more of my time on the opposite question. I'm a psychiatric nurse practitioner who builds the automation behind my day-to-day clinical work, and the judgment that has paid off most is knowing when to take the model out of a step entirely. Three times in the past year I ripped an LLM out of a workflow and put a deterministic local script in its place. Each time the trigger was the same: the requirement had quietly stopped being a judgment call and become a guarantee. Here is what that cost, what it bought, and where I left the model exactly where it was.
 
 ## Case 1: Records intake
 
