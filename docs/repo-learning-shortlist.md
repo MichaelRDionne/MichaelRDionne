@@ -34,6 +34,9 @@ These are high-value repositories to study or fork selectively. The rule is simp
 10. `openai/openai-cookbook`
     Practical OpenAI API examples and implementation patterns. Best for learning reference-grade examples before building new AI demo features.
 
+11. `anthropics/anthropic-cookbook`
+    Anthropic's own collection of Claude usage patterns and recipes. Best for cross-checking `prompt-eval-harness` rubric design against the vendor's own recommended prompting and evaluation patterns.
+
 ## Forking Rules
 
 - Fork only one or two at a time.
@@ -43,6 +46,6 @@ These are high-value repositories to study or fork selectively. The rule is simp
 
 ## First Learning Targets
 
-- Study `synthetichealth/synthea` and add a note on how synthetic patient fixtures could improve `clinical-ai-workflow-sandbox`.
+- Study `synthetichealth/synthea` and add a note on how synthetic patient fixtures could strengthen future clinical-workflow demos in this portfolio.
 - Study `promptfoo/promptfoo` and design one expected-output evaluation for summary quality.
 - Study `streamlit/streamlit` and sketch a local follow-up queue view.

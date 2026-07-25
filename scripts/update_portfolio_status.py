@@ -14,20 +14,24 @@ ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "docs" / "portfolio-status.md"
 
 ACTIVE_REPOS = [
-    "clinical-ai-workflow-sandbox",
-    "whatsapp-care-coordination-sandbox",
+    "prompt-eval-harness",
+    "clinical-agent-skills",
+    "caption-canary",
+    "tremor-ruler",
+    "claude-commands",
     "ai-site-build-showcase",
     "medical-ai-consulting-playbook",
-    "bootcamp-learning-archive",
     "Cybersecurity-Portfolio",
 ]
 
 PRIORITY_REPOS = {
-    "clinical-ai-workflow-sandbox": "Clinical AI workflow demo",
-    "whatsapp-care-coordination-sandbox": "Healthcare operations routing demo",
+    "prompt-eval-harness": "Evaluation-first prompt development, live weekly dashboard",
+    "clinical-agent-skills": "Agent skills and slash commands with change-control gates",
+    "caption-canary": "Silently-failed transcript detection",
+    "tremor-ruler": "Coin-calibrated smartphone-video tremor quantification",
+    "claude-commands": "Domain-neutral Claude Code slash commands",
     "ai-site-build-showcase": "Live AI-assisted site gallery",
     "medical-ai-consulting-playbook": "Consulting guardrails and review templates",
-    "bootcamp-learning-archive": "Older coursework index",
     "Cybersecurity-Portfolio": "Cybersecurity background",
 }
 

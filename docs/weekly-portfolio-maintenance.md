@@ -10,11 +10,13 @@ The weekly workflow checks the active portfolio repos and regenerates `docs/port
 
 ## Active Portfolio Repos
 
-- `clinical-ai-workflow-sandbox`
-- `whatsapp-care-coordination-sandbox`
+- `prompt-eval-harness`
+- `clinical-agent-skills`
+- `caption-canary`
+- `tremor-ruler`
+- `claude-commands`
 - `ai-site-build-showcase`
 - `medical-ai-consulting-playbook`
-- `bootcamp-learning-archive`
 - `Cybersecurity-Portfolio`
 
 ## Weekly Checklist

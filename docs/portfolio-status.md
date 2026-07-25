@@ -6,11 +6,13 @@ This file is refreshed by the weekly portfolio maintenance workflow. It summariz
 
 | Repo | Role | Last Push | Open Issues | Latest Workflow | License | Homepage |
 | --- | --- | --- | ---: | --- | --- | --- |
-| [clinical-ai-workflow-sandbox](https://github.com/MichaelRDionne/clinical-ai-workflow-sandbox) | Clinical AI workflow demo | 2026-06-30 | 1 | completed/success | MIT | - |
-| [whatsapp-care-coordination-sandbox](https://github.com/MichaelRDionne/whatsapp-care-coordination-sandbox) | Healthcare operations routing demo | 2026-06-30 | 2 | completed/success | MIT | - |
-| [ai-site-build-showcase](https://github.com/MichaelRDionne/ai-site-build-showcase) | Live AI-assisted site gallery | 2026-07-08 | 1 | completed/success | MIT | [live](https://michaelrdionne.github.io/ai-site-build-showcase/) |
-| [medical-ai-consulting-playbook](https://github.com/MichaelRDionne/medical-ai-consulting-playbook) | Consulting guardrails and review templates | 2026-07-08 | 1 | no workflow | MIT | - |
-| [bootcamp-learning-archive](https://github.com/MichaelRDionne/bootcamp-learning-archive) | Older coursework index | 2026-06-30 | 0 | no workflow | MIT | - |
+| [prompt-eval-harness](https://github.com/MichaelRDionne/prompt-eval-harness) | Evaluation-first prompt development, live weekly dashboard | 2026-07-25 | 0 | completed/success | MIT | [live](https://michaelrdionne.github.io/prompt-eval-harness/) |
+| [clinical-agent-skills](https://github.com/MichaelRDionne/clinical-agent-skills) | Agent skills and slash commands with change-control gates | 2026-07-25 | 0 | completed/success | MIT | - |
+| [caption-canary](https://github.com/MichaelRDionne/caption-canary) | Silently-failed transcript detection | 2026-07-21 | 0 | completed/success | MIT | - |
+| [tremor-ruler](https://github.com/MichaelRDionne/tremor-ruler) | Coin-calibrated smartphone-video tremor quantification | 2026-07-21 | 0 | completed/success | MIT | - |
+| [claude-commands](https://github.com/MichaelRDionne/claude-commands) | Domain-neutral Claude Code slash commands | 2026-07-23 | 0 | no workflow | MIT | - |
+| [ai-site-build-showcase](https://github.com/MichaelRDionne/ai-site-build-showcase) | Live AI-assisted site gallery | 2026-07-25 | 1 | completed/success | MIT | [live](https://michaelrdionne.github.io/ai-site-build-showcase/) |
+| [medical-ai-consulting-playbook](https://github.com/MichaelRDionne/medical-ai-consulting-playbook) | Consulting guardrails and review templates | 2026-07-25 | 1 | no workflow | MIT | - |
 | [Cybersecurity-Portfolio](https://github.com/MichaelRDionne/Cybersecurity-Portfolio) | Cybersecurity background | 2024-12-16 | 0 | no workflow | none | - |
 
 ## Weekly Maintenance Rules
