@@ -53,7 +53,7 @@ Three repos carry most of the signal:
 
 ## The rest of the shelf
 
-- **[claude-commands](https://github.com/MichaelRDionne/claude-commands)** — five general-purpose Claude Code slash commands, the domain-neutral layer to clinical-agent-skills. Captain-mode delegation, where the expensive model plans and judges while cheaper subagents do the work. Lacuna prompting, which hunts for the structurally missing option instead of asking a model to "be creative." Lean-by-default effort control that spikes when the task gets hard and comes back down after. Pre-flight red-teaming. No-execution quarantine vetting of untrusted repos. MIT — copy the files you want.
+- **[claude-commands](https://github.com/MichaelRDionne/claude-commands)** — six general-purpose Claude Code slash commands, the domain-neutral layer to clinical-agent-skills. Captain-mode delegation, where the expensive model plans and judges while cheaper subagents do the work. Lacuna prompting, which hunts for the structurally missing option instead of asking a model to "be creative." Lean-by-default effort control that spikes when the task gets hard and comes back down after. Pre-flight red-teaming. Report-first workspace housekeeping. No-execution quarantine vetting of untrusted repos. MIT — copy the files you want.
 
 - **[caption-canary](https://github.com/MichaelRDionne/caption-canary)** — detects machine transcripts that failed silently: fluent output with the domain vocabulary quietly replaced by phonetic soundalikes ("close a pin" for clozapine). Scores a transcript against the vocabulary its topic predicts. Standard library only.
 
