@@ -8,39 +8,38 @@
 ![Synthetic Data Only](https://img.shields.io/badge/Synthetic_Data_Only-15803D?style=for-the-badge&labelColor=166534)
 ![Human in the Loop](https://img.shields.io/badge/Human_in_the_Loop-B45309?style=for-the-badge&labelColor=92400E)
 
-I build practical AI-assisted tools for clinical and operational workflows: intake summarization, care-team routing, follow-up tracking, website prototypes, and safety checklists for using AI in healthcare settings.
+I'm a psychiatric nurse practitioner who writes code. By day I see patients. The rest of the time I build the tools I wish my workday came with: a script that proves every record in an archive was actually read, a canary that catches an AI transcript quietly swapping "clozapine" for "close a pin," a test harness that scores prompt edits the way a test suite scores code edits.
 
-My work sits at the intersection of psychiatric practice, product thinking, and hands-on automation. The common thread is simple: AI systems should reduce cognitive load, preserve human judgment, and make the next safe action easier to see.
+The thread through all of it is simple. AI should carry the busywork, and the human keeps the final call. Most of what I publish here is about making that rule enforceable instead of aspirational.
 
-## Selected Writing
+Every README in this portfolio opens in plain language and gets more technical as you scroll.
+
+## Start here
+
+Three repos carry most of the signal:
+
+- **[prompt-eval-harness](https://github.com/MichaelRDionne/prompt-eval-harness)** — tests for prompts. Edit a prompt and a fixed set of checks tells you whether the output got worse, before anyone has to eyeball a diff. In the demo, an AI answer that *reads better* than the correct one scores 9%, because it dropped an error code, invented a cause, and blurred the one number that mattered. A weekly job scores a live model and publishes the results, untouched, to a [public dashboard](https://michaelrdionne.github.io/prompt-eval-harness/).
+
+- **[tremor-ruler](https://github.com/MichaelRDionne/tremor-ruler)** — measures hand tremor from a smartphone video. A US quarter in the frame is the ruler that converts pixels to millimeters. It reports tremor frequency in Hz, and when the footage can't support a number — clip too short, tracking dropped out, movement not rhythmic — it refuses and names the reason instead of guessing.
+
+- **[clinical-agent-skills](https://github.com/MichaelRDionne/clinical-agent-skills)** — the rulebook I run AI agents under in my own clinical practice, pseudonymized for public reuse. Every hard rule ships with the real incident that created it. MIT — fork and adapt.
+
+## Selected writing
 
 **[When Not to Use a Model](when-not-to-use-a-model.md)** — Most writing about AI in healthcare argues over which model to reach for. The judgment that has paid off most for me is knowing when to take the model out of a step entirely. Three cases from my own workflow where I replaced an LLM with a deterministic local script — [records intake](https://github.com/MichaelRDionne/intake-manifest), batch registration, and the silent-transcript problem behind [caption-canary](https://github.com/MichaelRDionne/caption-canary) — with an honest account of what that cost, where it was the wrong call, and where the model stayed. The decision rule: prompts express intent, scripts express contracts.
 
-## Quick Signal
-
-- Licensed psychiatric clinician building hands-on AI workflow prototypes.
-- Comfortable translating messy operational work into structured queues, checks, and review loops.
-- Focused on synthetic demos, PHI safety, and responsible human-in-the-loop design.
-- Currently building toward medical AI consulting, clinical operations automation, and practical evaluation of AI tools in healthcare environments.
-
-## Stack
-
-[![Core tools](https://skillicons.dev/icons?i=python,ts,html,css,react,git,github,vscode,md&perline=9)](https://skillicons.dev)
-
-## Builder Proof
+## Proof it runs
 
 [![prompt-eval-harness tests](https://github.com/MichaelRDionne/prompt-eval-harness/actions/workflows/tests.yml/badge.svg)](https://github.com/MichaelRDionne/prompt-eval-harness/actions/workflows/tests.yml)
 [![caption-canary tests](https://github.com/MichaelRDionne/caption-canary/actions/workflows/tests.yml/badge.svg)](https://github.com/MichaelRDionne/caption-canary/actions/workflows/tests.yml)
 [![tremor-ruler tests](https://github.com/MichaelRDionne/tremor-ruler/actions/workflows/tests.yml/badge.svg)](https://github.com/MichaelRDionne/tremor-ruler/actions/workflows/tests.yml)
 
 - Runnable Python demos with public unit tests and GitHub Actions checks.
-- Live demo, [weekly automated eval with a public results dashboard](https://michaelrdionne.github.io/prompt-eval-harness/), static-site build, and consulting-review visuals.
+- A [weekly automated eval with a public results dashboard](https://michaelrdionne.github.io/prompt-eval-harness/), a static-site build, and consulting-review visuals.
 - Public safety boundary: synthetic data only, no PHI, no production clinical exports.
-- Fast review path: [`docs/portfolio-walkthrough.md`](docs/portfolio-walkthrough.md)
-- Status: [`docs/portfolio-status.md`](docs/portfolio-status.md)
-- Learning shortlist: [`docs/repo-learning-shortlist.md`](docs/repo-learning-shortlist.md)
+- Fast review path: [`docs/portfolio-walkthrough.md`](docs/portfolio-walkthrough.md) · Status: [`docs/portfolio-status.md`](docs/portfolio-status.md) · Learning shortlist: [`docs/repo-learning-shortlist.md`](docs/repo-learning-shortlist.md)
 
-## Visual Showcase
+## Visual showcase
 
 <a href="https://github.com/MichaelRDionne/prompt-eval-harness">
   <img width="31%" src="https://raw.githubusercontent.com/MichaelRDionne/prompt-eval-harness/HEAD/assets/demo.gif" alt="Prompt eval harness demo" />
@@ -52,78 +51,35 @@ My work sits at the intersection of psychiatric practice, product thinking, and 
   <img width="31%" src="https://raw.githubusercontent.com/MichaelRDionne/medical-ai-consulting-playbook/main/assets/consulting-review-matrix.svg" alt="Medical AI consulting playbook visual" />
 </a>
 
-## Current Focus
+## The rest of the shelf
 
-- Clinical workflow automation with synthetic data and human review gates.
-- Healthcare operations tooling for follow-up queues, message triage, and documentation support.
-- AI-assisted site and app builds for small teams that need fast, usable prototypes.
-- Safety patterns for PHI handling, synthetic demo data, prompt evaluation, and clinical escalation.
+- **[claude-commands](https://github.com/MichaelRDionne/claude-commands)** — five general-purpose Claude Code slash commands, the domain-neutral layer to clinical-agent-skills. Captain-mode delegation, where the expensive model plans and judges while cheaper subagents do the work. Lacuna prompting, which hunts for the structurally missing option instead of asking a model to "be creative." Lean-by-default effort control that spikes when the task gets hard and comes back down after. Pre-flight red-teaming. No-execution quarantine vetting of untrusted repos. MIT — copy the files you want.
 
-## Now Building
+- **[caption-canary](https://github.com/MichaelRDionne/caption-canary)** — detects machine transcripts that failed silently: fluent output with the domain vocabulary quietly replaced by phonetic soundalikes ("close a pin" for clozapine). Scores a transcript against the vocabulary its topic predicts. Standard library only.
 
-- [tremor-ruler](https://github.com/MichaelRDionne/tremor-ruler): video-based tremor measurement with a coin as the physical scale reference — the MediaPipe landmark-extraction layer is now validated end-to-end on video; next up is an AIMS-adjacent movement screen.
+- **[intake-manifest](https://github.com/MichaelRDionne/intake-manifest)** — prove every file in an archive was accounted for, or fail loudly. One explicit status per file — processed, flagged, or failed — and a tripwire that refuses any manifest whose record count doesn't match the archive. `--strict` turns a silent gap into a non-zero exit. The deterministic-intake case from *When Not to Use a Model*.
+
+- **[ai-site-build-showcase](https://github.com/MichaelRDionne/ai-site-build-showcase)** — case-study gallery of AI-assisted website and app builds, including two live shipped sites (deliberately unnamed) and a synthetic operations dashboard.
+
+- **[medical-ai-consulting-playbook](https://github.com/MichaelRDionne/medical-ai-consulting-playbook)** — checklists and templates for deciding whether an AI workflow belongs in a clinic at all: PHI safety, human-review design, model evaluation, and sanitized examples of the clinic-day automation suite I run in my own practice.
+
+## Now building
+
+- [tremor-ruler](https://github.com/MichaelRDionne/tremor-ruler): the MediaPipe landmark-extraction layer is validated end-to-end on real video; next up is an AIMS-adjacent movement screen.
 - Synthetic clinical workflow tools with clearer review gates and better demo polish.
 - Care coordination routing patterns that separate operations from clinician review.
 - Medical AI consulting artifacts that show decision quality, safety boundaries, and workflow judgment.
-- AI-assisted site and app prototypes that feel usable, not just generated.
 
-## Featured Work
+Roadmap detail: [`docs/current-build-roadmap.md`](docs/current-build-roadmap.md) · automated weekly maintenance rules: [`docs/weekly-portfolio-maintenance.md`](docs/weekly-portfolio-maintenance.md)
 
-- [clinical-agent-skills](https://github.com/MichaelRDionne/clinical-agent-skills)  
-  Battle-tested Claude Code skills and slash commands from my real clinical-automation practice, pseudonymized for public reuse. Gate-with-incident change control (every hard rule paired with the failure that created it), GREEN/YELLOW/RED multi-agent autonomy with a no-daemon fence, payload-reality checks ("mechanics-green ≠ content-correct"), and the pre-publish portfolio safety audit this repo itself passed before going live. MIT — fork and adapt.
-
-- [claude-commands](https://github.com/MichaelRDionne/claude-commands)  
-  Five general-purpose Claude Code slash commands — the domain-neutral workflow layer to clinical-agent-skills. Captain-mode delegation (the expensive model plans and judges; cheaper subagents do the work), lacuna prompting for structurally missing options instead of probability-mass "creativity," lean-by-default effort control that spikes and comes back down, pre-flight red-teaming, and no-execution quarantine vetting of untrusted repos. MIT — copy the files you want.
-
-- [tremor-ruler](https://github.com/MichaelRDionne/tremor-ruler)  
-  Coin-calibrated hand-tremor quantification from smartphone video. MediaPipe landmark trajectories → band-pass → Welch PSD for tremor frequency (the measurement-grade output); a US quarter in frame supplies the pixel-to-mm scale for a screening-grade amplitude. QC gates refuse with a named reason — short clip, tracking dropout, sub-Nyquist frame rate, non-rhythmic movement — instead of emitting a number the footage can't support. Unit-tested against synthetic ground truth, including a 1/f drift-rejection case that caught a real detector bug.
-
-- [prompt-eval-harness](https://github.com/MichaelRDionne/prompt-eval-harness)  
-  Evaluation-first prompt development: weighted deterministic rubrics (JSONL cases, pure-function checks, CI gate) that regression-test prompt edits like code edits. The demo is the test suite — on a synthetic incident-summary task, a mock output that reads *better* than the faithful one scores 9% (1/11 weighted) because it drops the exact error code, invents a root cause that never happened, and launders a precise impact figure into vague reassurance. A weekly CI job scores the live model and publishes the results, untouched, to a [live dashboard](https://michaelrdionne.github.io/prompt-eval-harness/).
-
-- [caption-canary](https://github.com/MichaelRDionne/caption-canary)  
-  Detects machine transcripts that failed silently — fluent output with the domain vocabulary quietly replaced by phonetic soundalikes ("close a pin" for clozapine). Scores transcripts against the vocabulary their topic predicts; stdlib only.
-
-- [intake-manifest](https://github.com/MichaelRDionne/intake-manifest)  
-  Prove every file in an archive was accounted for, or fail loudly. Enumerates every entry in a document bundle and emits a manifest carrying one explicit status per file — processed, flagged, or failed; an internal tripwire refuses any manifest whose record count doesn't equal the bundle's file count, and `--strict` turns an unprocessed file into a non-zero exit instead of a silent gap. Stdlib only, unit-tested on the guarantee itself. The deterministic-intake case from the *When Not to Use a Model* essay.
-
-- [ai-site-build-showcase](https://github.com/MichaelRDionne/ai-site-build-showcase)  
-  Case-study gallery of AI-assisted website and app builds, focused on fast iteration and usable interfaces.
-
-- [medical-ai-consulting-playbook](https://github.com/MichaelRDionne/medical-ai-consulting-playbook)  
-  Practical checklists for AI workflow risk review, PHI safety, human-in-the-loop design, and model evaluation.
-
-## Interview Talking Points
+## How I work
 
 - I know the clinical workflow from the inside, which helps me spot where AI should support judgment rather than replace it.
 - I build small proof-of-concept tools first, then evaluate whether they reduce ambiguity, save time, or create new risk.
 - I treat synthetic data, auditability, and escalation rules as product requirements, not afterthoughts.
-- I am especially interested in AI systems for healthcare operations, clinician productivity, and candidate/workflow evaluation.
+- I like small tools that turn messy work into clear queues, summaries that show their uncertainty, and lightweight prototypes that prove an idea before a team overbuilds it.
+- I am especially interested in AI systems for healthcare operations, clinician productivity, and workflow evaluation.
 
-## Safety Boundary
+## Safety boundary
 
-Public repositories use synthetic or generalized examples only. I do not publish patient data, private clinical records, production credentials, private operational exports, or vendor-specific internal workflows.
-
-## What I Like Building
-
-- Small tools that turn messy work into clear queues.
-- Clinical-facing summaries that show uncertainty instead of hiding it.
-- AI workflows that keep final responsibility with a human reviewer.
-- Lightweight prototypes that prove an idea before a team overbuilds it.
-
-## Current Build Roadmap
-
-See `docs/current-build-roadmap.md` for the next set of public upgrades I am actively building across the portfolio.
-
-See `docs/weekly-portfolio-maintenance.md` for the automated weekly maintenance rules.
-
-## Recent Public Builds & Thinking
-
-- [Medical AI Consulting Playbook](https://github.com/MichaelRDionne/medical-ai-consulting-playbook) — checklists, templates, and real sanitized examples of tools I've built:
-  - Full clinic-day EHR automation suite: kickoff from pasted schedule, post-visit handoff with content-validity, new-patient intake, backfill, token-efficient rewrites.
-  - "Magic paste" utility (pasted-text.ts) for intelligently detecting and handling long pasted content (schedules, notes) as separate blocks in command UIs.
-
-These show the engineering: safety gates for PHI/encrypted volumes, human review at every irreversible step, v2 structured charts as source of truth, and UI affordances that make daily work faster while keeping the clinician in control.
-
-All examples use synthetic or generalized data. Full internal versions stay private.
-
+Public repositories use synthetic or generalized examples only. I do not publish patient data, private clinical records, production credentials, private operational exports, or vendor-specific internal workflows. Full internal versions of the clinical tooling stay private.
