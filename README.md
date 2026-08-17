@@ -16,13 +16,15 @@ Every README in this portfolio opens in plain language and gets more technical a
 
 ## Start here
 
-Three repos carry most of the signal:
+Four repos carry most of the signal:
 
 - **[prompt-eval-harness](https://github.com/MichaelRDionne/prompt-eval-harness)** — tests for prompts. Edit a prompt and a fixed set of checks tells you whether the output got worse, before anyone has to eyeball a diff. In the demo, an AI answer that *reads better* than the correct one scores 9%, because it dropped an error code, invented a cause, and blurred the one number that mattered. A weekly job scores a live model and publishes the results, untouched, to a [public dashboard](https://michaelrdionne.github.io/prompt-eval-harness/).
 
 - **[tremor-ruler](https://github.com/MichaelRDionne/tremor-ruler)** — measures hand tremor from a smartphone video. A US quarter in the frame is the ruler that converts pixels to millimeters. It reports tremor frequency in Hz, and when the footage can't support a number — clip too short, tracking dropped out, movement not rhythmic — it refuses and names the reason instead of guessing.
 
 - **[clinical-agent-skills](https://github.com/MichaelRDionne/clinical-agent-skills)** — the rulebook I run AI agents under in my own clinical practice, pseudonymized for public reuse. Every hard rule ships with the real incident that created it. MIT — fork and adapt.
+
+- **[clinical-note-eval](https://github.com/MichaelRDionne/clinical-note-eval)** — clinician-authored gold labels plus a [written preference-pair page](https://github.com/MichaelRDionne/clinical-note-eval/blob/master/reviewer/preference-pairs.md): two answers, one chosen, severity-first why. Ten synthetic notes. No live scores until you run it.
 
 ## Selected writing
 
