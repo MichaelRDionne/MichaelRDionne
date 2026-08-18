@@ -24,7 +24,7 @@ Four repos carry most of the signal:
 
 - **[clinical-agent-skills](https://github.com/MichaelRDionne/clinical-agent-skills)** — the rulebook I run AI agents under in my own clinical practice, pseudonymized for public reuse. Every hard rule ships with the real incident that created it. MIT — fork and adapt.
 
-- **[clinical-note-eval](https://github.com/MichaelRDionne/clinical-note-eval)** — clinician-authored gold labels plus a [written preference-pair page](https://github.com/MichaelRDionne/clinical-note-eval/blob/master/reviewer/preference-pairs.md): two answers, one chosen, severity-first why. Ten synthetic notes. No live scores until you run it.
+- **[clinical-note-eval](https://github.com/MichaelRDionne/clinical-note-eval)** — clinician-authored gold labels plus a [written preference-pair page](https://github.com/MichaelRDionne/clinical-note-eval/blob/master/reviewer/preference-pairs.md): two answers, one chosen, severity-first why. Ten synthetic notes. Live run: 0 dose errors; wording still costs points.
 
 ## Selected writing
 
