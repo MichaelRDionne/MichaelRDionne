@@ -6,7 +6,7 @@ This file is refreshed by the weekly portfolio maintenance workflow. It summariz
 
 | Repo | Role | Last Push | Open Issues | Latest Workflow | License | Homepage |
 | --- | --- | --- | ---: | --- | --- | --- |
-| [prompt-eval-harness](https://github.com/MichaelRDionne/prompt-eval-harness) | Evaluation-first prompt development, live weekly dashboard | 2026-08-17 | 0 | completed/success | MIT | [live](https://michaelrdionne.github.io/prompt-eval-harness/) |
+| [prompt-eval-harness](https://github.com/MichaelRDionne/prompt-eval-harness) | Evaluation-first prompt development, live weekly dashboard | 2026-08-17 | 0 | completed/failure | MIT | [live](https://michaelrdionne.github.io/prompt-eval-harness/) |
 | [clinical-agent-skills](https://github.com/MichaelRDionne/clinical-agent-skills) | Agent skills and slash commands with change-control gates | 2026-08-14 | 0 | completed/success | MIT | - |
 | [caption-canary](https://github.com/MichaelRDionne/caption-canary) | Silently-failed transcript detection | 2026-08-14 | 0 | completed/success | MIT | - |
 | [tremor-ruler](https://github.com/MichaelRDionne/tremor-ruler) | Coin-calibrated smartphone-video tremor quantification | 2026-07-28 | 0 | completed/success | MIT | - |
