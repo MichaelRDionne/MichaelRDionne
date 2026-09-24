@@ -16,9 +16,11 @@ Every README in this portfolio opens in plain language and gets more technical a
 
 ## Start here
 
-Four repos carry most of the signal:
+Five repos carry most of the signal:
 
 - **[prompt-eval-harness](https://github.com/MichaelRDionne/prompt-eval-harness)** — tests for prompts. Edit a prompt and a fixed set of checks tells you whether the output got worse, before anyone has to eyeball a diff. In the demo, an AI answer that *reads better* than the correct one scores 9%, because it dropped an error code, invented a cause, and blurred the one number that mattered. A weekly job scores a live model and publishes the results, untouched, to a [public dashboard](https://michaelrdionne.github.io/prompt-eval-harness/).
+
+- **[caption-canary](https://github.com/MichaelRDionne/caption-canary)** — catches machine transcripts that fail silently: fluent output with the domain vocabulary quietly replaced by phonetic soundalikes ("close a pin" for clozapine). Scores output against the domain vocabulary its topic predicts, with collision shields for sibling drug classes and strict non-zero exits for unhandled acoustic drift. Stdlib only.
 
 - **[tremor-ruler](https://github.com/MichaelRDionne/tremor-ruler)** — measures hand tremor from a smartphone video. A US quarter in the frame is the ruler that converts pixels to millimeters. It reports tremor frequency in Hz, and when the footage can't support a number — clip too short, tracking dropped out, movement not rhythmic — it refuses and names the reason instead of guessing.
 
@@ -56,8 +58,6 @@ Four repos carry most of the signal:
 ## The rest of the shelf
 
 - **[claude-commands](https://github.com/MichaelRDionne/claude-commands)** — seven general-purpose Claude Code slash commands, the domain-neutral layer to clinical-agent-skills. Captain-mode delegation: the root stays mechanical on whatever model the session is on, and a judge subagent writes the plan and the verdict. Lacuna prompting, which hunts for the structurally missing option instead of asking a model to "be creative." Lean-by-default effort control that spikes when the task gets hard and comes back down after. Pre-flight red-teaming. Authenticated-session relay prompts for work that has to happen inside a real logged-in browser. Report-first workspace housekeeping. No-execution quarantine vetting of untrusted repos. MIT — copy the files you want.
-
-- **[caption-canary](https://github.com/MichaelRDionne/caption-canary)** — detects machine transcripts that failed silently: fluent output with the domain vocabulary quietly replaced by phonetic soundalikes ("close a pin" for clozapine). Scores a transcript against the vocabulary its topic predicts. Standard library only.
 
 - **[intake-manifest](https://github.com/MichaelRDionne/intake-manifest)** — prove every file in an archive was accounted for, or fail loudly. One explicit status per file — processed, flagged, or failed — and a tripwire that refuses any manifest whose record count doesn't match the archive. `--strict` turns a silent gap into a non-zero exit. The deterministic-intake case from *When Not to Use a Model*.
 
