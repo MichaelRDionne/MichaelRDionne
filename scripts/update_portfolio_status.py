@@ -16,22 +16,30 @@ OUTPUT = ROOT / "docs" / "portfolio-status.md"
 ACTIVE_REPOS = [
     "prompt-eval-harness",
     "clinical-agent-skills",
+    "clinical-note-eval",
+    "intake-manifest",
     "caption-canary",
     "tremor-ruler",
     "claude-commands",
+    "codex-scrub-skill",
     "ai-site-build-showcase",
     "medical-ai-consulting-playbook",
+    "windows-second-brain-starter",
     "Cybersecurity-Portfolio",
 ]
 
 PRIORITY_REPOS = {
     "prompt-eval-harness": "Evaluation-first prompt development, live weekly dashboard",
     "clinical-agent-skills": "Agent skills and slash commands with change-control gates",
+    "clinical-note-eval": "Clinician-authored gold labels for note extraction, synthetic notes",
+    "intake-manifest": "Deterministic records-intake manifest with a fail-loud count tripwire",
     "caption-canary": "Silently-failed transcript detection",
     "tremor-ruler": "Coin-calibrated smartphone-video tremor quantification",
     "claude-commands": "Domain-neutral Claude Code slash commands",
+    "codex-scrub-skill": "Context checkpointing and clean-restart skill",
     "ai-site-build-showcase": "Live AI-assisted site gallery",
     "medical-ai-consulting-playbook": "Consulting guardrails and review templates",
+    "windows-second-brain-starter": "Windows note-vault and agent bootstrap kit",
     "Cybersecurity-Portfolio": "Cybersecurity background",
 }
 

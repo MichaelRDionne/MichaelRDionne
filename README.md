@@ -68,8 +68,7 @@ Five repos carry most of the signal:
 ## Now building
 
 - [tremor-ruler](https://github.com/MichaelRDionne/tremor-ruler): the MediaPipe landmark-extraction layer is validated end-to-end on real video; next up is an AIMS-adjacent movement screen.
-- Synthetic clinical workflow tools with clearer review gates and better demo polish.
-- Care coordination routing patterns that separate operations from clinician review.
+- [prompt-eval-harness](https://github.com/MichaelRDionne/prompt-eval-harness): hardening the frontier test suite. The live series sits one test case from the ceiling, which leaves too little room for the suite to show a regression. Weekly rows are in [`benchmarks/results.jsonl`](https://github.com/MichaelRDionne/prompt-eval-harness/blob/master/benchmarks/results.jsonl).
 - Medical AI consulting artifacts that show decision quality, safety boundaries, and workflow judgment.
 
 Roadmap detail: [`docs/current-build-roadmap.md`](docs/current-build-roadmap.md) · automated weekly maintenance rules: [`docs/weekly-portfolio-maintenance.md`](docs/weekly-portfolio-maintenance.md)
