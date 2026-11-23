@@ -6,7 +6,7 @@ This file is refreshed by the weekly portfolio maintenance workflow. It summariz
 
 | Repo | Role | Last Push | Open Issues | Latest Workflow | License | Homepage |
 | --- | --- | --- | ---: | --- | --- | --- |
-| [prompt-eval-harness](https://github.com/MichaelRDionne/prompt-eval-harness) | Evaluation-first prompt development, live weekly dashboard | 2026-11-16 | 0 | completed/success | MIT | [live](https://michaelrdionne.github.io/prompt-eval-harness/) |
+| [prompt-eval-harness](https://github.com/MichaelRDionne/prompt-eval-harness) | Evaluation-first prompt development, live weekly dashboard | 2026-11-23 | 0 | completed/success | MIT | [live](https://michaelrdionne.github.io/prompt-eval-harness/) |
 | [clinical-agent-skills](https://github.com/MichaelRDionne/clinical-agent-skills) | Agent skills and slash commands with change-control gates | 2026-11-09 | 0 | completed/success | MIT | - |
 | [clinical-note-eval](https://github.com/MichaelRDionne/clinical-note-eval) | Clinician-authored gold labels for note extraction, synthetic notes | 2026-08-17 | 0 | completed/success | MIT | - |
 | [intake-manifest](https://github.com/MichaelRDionne/intake-manifest) | Deterministic records-intake manifest with a fail-loud count tripwire | 2026-08-15 | 0 | completed/success | MIT | - |
